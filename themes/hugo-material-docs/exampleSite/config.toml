@@ -1,23 +1,23 @@
-baseurl = "http://OnJava8.com/"
-title = "Bruce Eckel: On Java 8"
+baseurl = "https://example.org/"
 languageCode = "en-us"
+title = "Material Docs"
 theme = "hugo-material-docs"
 metadataformat = "yaml"
 canonifyurls = true
 # Enable Google Analytics by entering your tracking id
-# googleAnalytics = ""
+googleAnalytics = ""
 
 [params]
 	# General information
-	author = "Bruce Eckel : MindView LLC"
-	description = "A Book on the Java 8 Programming Language."
-	copyright = "(c) 2017 All Rights Reserved"
+	author = "Digitalcraftsman"
+	description = "A material design theme for documentations."
+	copyright = "Released under the MIT license"
 
 	# Repository
 	provider = "GitHub"
-	repo_url = "https://github.com/BruceEckel/OnJava8.com"
+	repo_url = "https://github.com/digitalcraftsman/hugo-material-docs"
 
-	version = "Preview"
+	version = "1.0.0"
 	logo = "images/logo.png"
 	favicon = ""
 
@@ -40,13 +40,13 @@ canonifyurls = true
 
 
 [social]
-	twitter = "BruceEckel"
-	github  = "BruceEckel"
-	email   = "MindViewInc@gmail.com"
+	twitter = ""
+	github  = "digitalcraftsman"
+	email   = "hello@email.com"
 
 
 [[menu.main]]
-	name   = "On Java 8"
+	name   = "Material"
 	url    = "/"
 	weight = 0
 
